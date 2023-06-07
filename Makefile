@@ -2,4 +2,7 @@ serve:
 	npm run serve
 install:
 	npm ci
-lint: npx eslint .
+lint: 
+	npx eslint .
+fix:
+	npx eslint --fix .
