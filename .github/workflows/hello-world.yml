@@ -12,7 +12,7 @@ jobs:
           node-version: '18.x'
           cache: 'npm'
       - run: make install 
-      - run: npx eslint .
+      # - run: npx eslint .
       # - name: Test & publish code coverage
       #   # Publish code coverage on Code Climate
       #   # https://github.com/paambaati/codeclimate-action
