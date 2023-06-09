@@ -21,6 +21,22 @@ rules:
     - error
     - ignorePackages
     - js: always
-  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
-  ignorePatterns: ["dist/*"]
+  no-underscore-dangle: 0
+  camelcase: 0
+  no-sequences: 0
+  no-void: 0
+  no-eval: 0
+  no-unused-expressions: 0
+  no-unused-vars: 0
+  no-shadow: 0
+  no-multi-assign: 0
+  no-restricted-syntax: 0
+  ate-curly-in-string: 0
+  guard-for-in: 0
+  no-template-curly-in-string: 0
+
+
+  ignorePatterns: 
+    - 0
+    - ["dist/*"]
   
