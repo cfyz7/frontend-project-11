@@ -1,3 +1,5 @@
+'use strict'
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -5,6 +7,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
   entry: path.resolve(__dirname, './src/index.js'),
   output: {
     filename: '[name].[contenthash].js',
